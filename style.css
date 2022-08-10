@@ -1,0 +1,38 @@
+.square {
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    min-width: 90px;
+    min-height: 90px;
+    flex-grow: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    background-color: lightgreen;
+}
+.selected {
+    background-color: lightcoral;
+}
+
+.square p {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.container, .golosa, .double, .single {
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    flex-grow: 0px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.container, .golosa {
+    flex-direction: column;
+}
